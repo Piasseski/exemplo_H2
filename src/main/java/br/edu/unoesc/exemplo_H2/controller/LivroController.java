@@ -25,5 +25,9 @@ public class LivroController {
 	@GetMapping
 	public Iterable<Livro> listarTudo() {
 		return repositorio.findAll();
+		
 	}
+	
+	//Teste  de envio ajuste commit
+	
 }
